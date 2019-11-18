@@ -1,4 +1,5 @@
-x=str(input(""))
-txt = x.split()
+x = str(input(""))
+y = set(x.split(" "))
+txt = list(y)
 txt.sort()
 print(txt)
